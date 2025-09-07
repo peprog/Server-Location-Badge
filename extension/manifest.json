@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Server Location Badge",
+  "version": "1.0.2",
+  "description": "Shows the server's IP + country flag at the bottom-left of pages.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://ipwho.is/*", "https://dns.google/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Server Location Badge",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
