@@ -2,8 +2,8 @@
 
 A lightweight Chrome extension that shows the **server IP address and location** (country, city, flag) of the website you are visiting.
 
-<!-- 🔗 **Install from Chrome Web Store**: [Chrome Store Link](https://chrome.google.com/webstore/detail/XXXXXXXXXXXX)  
-*(replace with your actual link once published)* -->
+🔗 **Install from Chrome Web Store**: [Chrome Store Link]([https://chrome.google.com/webstore/detail/XXXXXXXXXXXX](https://chromewebstore.google.com/detail/server-location-badge/ndmhhcgpgchjiilmmlhfamopafcncdfg?authuser=0&hl=en))  
+
 
 ---
 
